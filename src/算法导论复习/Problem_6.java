@@ -3,6 +3,7 @@ package 算法导论复习;
 import java.util.HashMap;
 import java.util.Map;
 
+//https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-solution/
 public class Problem_6 {
     public static void main(String[] args) {
         int[] nums = new int[]{3, 5, 9, 13, 15};
@@ -20,7 +21,7 @@ public class Problem_6 {
                 break;
             }
         }
-        System.out.printf("两个下标分别是:%d,%d",i,j);
+        System.out.printf("两个下标分别是:%d,%d", i, j);
         return new int[]{i, j};
     }
 }
