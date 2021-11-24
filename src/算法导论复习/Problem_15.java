@@ -4,8 +4,9 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Queue;
 
-//活动安排问题，如何在一个地点举办最多的活动
+//会场安排问题，如何让一个会场装下最多的活动
 //贪心算法，选择最早结束的活动
+//https://www.cnblogs.com/gropeliang/p/13417802.html
 public class Problem_15 {
     public static void main(String[] args) {
         int[] s = new int[]{1, 3, 0, 5, 3, 5, 6, 8, 2, 10};//活动开始时间
